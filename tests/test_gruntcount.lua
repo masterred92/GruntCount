@@ -21,4 +21,16 @@ M.advance(5)
 M.check(#M.sounds == 5 and M.sounds[1][1] == 555997 and M.sounds[5][1] == 550357, "preview counts 5 to 1")
 M.combat = true; M.slash("/gruntcount", "work"); M.advance(5); M.combat = false
 M.check(#M.sounds == 5, "no preview in combat")
+-- 1.1.0: our other addons stay quiet while BigWigs counts down
+local msgs = {}
+BigWigsLoader = { RegisterMessage = function(owner, msg, fn) msgs[msg] = fn end }
+M.loadAddon(".", "GruntCount")
+local hub = KennyAddonsHub
+M.check(msgs.BigWigs_StartCountdown ~= nil, "listens for BigWigs countdowns")
+hub.voiceUntil = 0
+msgs.BigWigs_StartCountdown("BigWigs_StartCountdown", {}, "key", "msg", 8)
+M.check(hub.voiceUntil == 0, "not quiet before the count starts")
+M.advance(3.5)
+M.check(hub.voiceUntil > GetTime(), "quiet during the last 5 seconds")
+BigWigsLoader = nil
 M.done("GruntCount")

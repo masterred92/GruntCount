@@ -1,6 +1,6 @@
 <p align="center"><img src="media/logo.png" alt="Grunt Count logo" width="200"></p>
 
-# Grunt Count (WoW: Forever) v1.0.0
+# Grunt Count (WoW: Forever) v1.1.0
 
 [![Tests](https://github.com/masterred92/GruntCount/actions/workflows/tests.yml/badge.svg)](https://github.com/masterred92/GruntCount/actions/workflows/tests.yml) [![WoW: Forever](https://img.shields.io/badge/WoW%3A%20Forever-Interface%2016001-c8a165)](https://github.com/masterred92/GruntCount/blob/main/GruntCount.toc) [![Release](https://img.shields.io/github/v/release/masterred92/GruntCount?label=release)](https://github.com/masterred92/GruntCount/releases) [![License: MIT](https://img.shields.io/github/license/masterred92/GruntCount)](https://github.com/masterred92/GruntCount/blob/main/LICENSE)
 
@@ -15,6 +15,8 @@ Pick one in BigWigs > Countdown > Voice, and BigWigs uses it wherever it counts 
 <p align="center"><img src="media/screenshots/mockup-countdown.png" alt="Grunt Count preview" width="560"></p>
 
 **Needs:** Required for anything to play: [BigWigs](https://www.curseforge.com/wow/addons/big-wigs).
+
+**Works with:** BigWigs (required). BRBoss, Wipe & Win Lines and Questie: Job's Done wait until a countdown has finished.
 
 ## Download
 - **Wago Addons:** coming at launch (Nov 4). The link goes here when the project is live.

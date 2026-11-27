@@ -19,9 +19,9 @@ Pick one in BigWigs > Countdown > Voice, and BigWigs uses it wherever it counts 
 **Works with:** BigWigs (required). BRBoss, Wipe & Win Lines and Questie: Job's Done wait until a countdown has finished.
 
 ## Download
-- **Wago Addons:** coming at launch (Nov 4). The link goes here when the project is live.
-- **CurseForge:** maybe later.
-- **GitHub:** [Releases](https://github.com/masterred92/GruntCount/releases) (from the first tagged release) · [Issues](https://github.com/masterred92/GruntCount/issues)
+- **CurseForge:** link coming as soon as the project is live. Author: [MasterRed92](https://www.curseforge.com/members/masterred92/projects).
+- **Wago Addons:** link coming as soon as the project is live.
+- **GitHub:** [Releases](https://github.com/masterred92/GruntCount/releases) · [Issues](https://github.com/masterred92/GruntCount/issues)
 - **More by Kenny:** [BRBoss](https://github.com/masterred92/BRBoss) · [WipeAndWin](https://github.com/masterred92/WipeAndWin) · [ParchmentBars](https://github.com/masterred92/ParchmentBars) · [all WoW: Forever addons](https://github.com/masterred92/wow-forever-addons)
 
 ## Commands
